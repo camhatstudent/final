@@ -1,0 +1,78 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 158, 98);
+    margin-left: 25px;
+}
+
+.common{
+    padding: 20px;
+    left: 0%;
+    right: 0%; 
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    font-size: 38px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(20, 58, 15);
+    width: 100%;
+    text-align: center;
+}
+.subheader{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav{
+    position: fixed;
+    right: 25px;
+    top: 50px;
+    font-size: large;
+    z-index: 100;
+}
+
+.footer{
+    bottom: 0px;
+    margin-left: -37px;
+    margin-bottom: -12px;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(20, 58, 15);
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    color: rgb(44, 47, 212);
+}
+a:hover{
+    font-size: larger;
+}
+
+img{
+    display: block;
+    width: 25%;
+    padding: 5px solid white;
+    border: solid white 10px;
+    margin: 10px;
+    margin: auto;
+}
+
+iframe{
+    display: block;
+    padding: 5px solid white;
+    border: solid white 10px;
+    margin: 10px;
+    margin: auto;
+}
+.tableauPlaceholder{
+    z-index: -100;
+}
+.tableauViz{
+    size: 10px;
+}
